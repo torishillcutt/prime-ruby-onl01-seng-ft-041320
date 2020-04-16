@@ -1,6 +1,5 @@
 def prime?(i)
   (2..(i - 1)).each do |n|
-    return false if i % n == 0
+    return false if i % n == 0 else true
   end
-  true
 end
